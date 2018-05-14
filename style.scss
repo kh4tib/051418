@@ -46,8 +46,18 @@ body {
             transition: .3s ease-in-out;
             cursor: pointer;
 
+            svg {
+                fill:slateblue;
+                vertical-align: middle;
+                transition: .3s ease-in-out;
+            }
+
             &:hover {
                 background: slateblue;
+
+                svg {
+                    fill: #161616;
+                }
             }
 
 

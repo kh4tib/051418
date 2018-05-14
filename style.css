@@ -35,7 +35,13 @@ body {
       margin: .25rem;
       transition: .3s ease-in-out;
       cursor: pointer; }
+      .main__content li svg {
+        fill: slateblue;
+        vertical-align: middle;
+        transition: .3s ease-in-out; }
       .main__content li:hover {
         background: slateblue; }
+        .main__content li:hover svg {
+          fill: #161616; }
 
 /*# sourceMappingURL=style.css.map */
